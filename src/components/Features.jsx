@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Eye, Mic, ChartBar, Brain } from 'lucide-react';
+import { Eye, Mic, BarChart, Brain } from 'lucide-react';
 
 const features = [
   {
@@ -14,7 +14,7 @@ const features = [
     desc: 'Practice with lifelike avatars powered by Gemini-TTS for natural dialogue.',
   },
   {
-    icon: ChartBar,
+    icon: BarChart,
     title: 'Personalized Feedback',
     desc: 'Actionable tips and detailed reports help you improve after each session.',
   },
